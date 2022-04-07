@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+#header-nav {
+    background-color: darkGrey;
+    border-radius: 0;
+    border: 2px solid black;
+    background-color: darkgrey;
+  }
+.container{
+    padding: 0;
+    margin: 0; 
+    width: 100%;
+    
+  }
+  .navbar-brand h1 { /* Restaurant name */ 
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  .item{
+    position: relative;
+    top: 0;
+    margin: 15px;
+
+    border: 1px solid #000;
+    background-color: darkgray;
+  }
+  
+  p{
+    width: 100%;
+    height: 150px;
+    clear: right;
+    padding: 10px;
+    margin: 10px; 
+    font-family: Helvetica;
+    color: black;
+  
+  }
+#collapsable-nav{
+
+    line-height: .5;
+    background-color: white;
+}
