@@ -7,8 +7,9 @@
     background-color: darkGrey;
     border-radius: 0;
     border: 2px solid black;
+    background-color: darkgrey;
   }
-.container{
+.container-fluid{
     padding: 0;
     margin: 0; 
     width: 100%;
@@ -32,7 +33,7 @@
   
   p{
     width: 100%;
-    height: 150px;
+    height: auto;
     clear: right;
     padding: 10px;
     margin: 10px; 
@@ -40,8 +41,11 @@
     color: black;
   
   }
-#collapsable-nav{
+
+@media (max-width: 767px) {
+  #collapsable-nav{
 
     line-height: .5;
     background-color: white;
+  } 
 }
